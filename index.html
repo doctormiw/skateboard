@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/favicon.svg" />
+      
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>musheye skateboard</title>
+    <style>
+      /* reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          /* background: #121212 */
+
+      }
+
+      
+    </style>
+    <script type="module" crossorigin src="/assets/index-285a780f.js"></script>
+    <link rel="stylesheet" href="/assets/index-848014b3.css">
+  </head>
+  <div id="theme-probe" style="display: none;"></div>
+
+  <body>
+    <div id="app"></div>
+    <section id="intro">
+      <div id></div>
+        <div id="intro-content">
+          <h1 class="intro-fade intro-delay-1">Холст — где угодно. Даже под ногами.</h1>
+          <p class="intro-fade intro-delay-2">
+            Эта доска — мой способ рисовать движением.  
+            А эта сцена — способ рассказать, как она родилась.
+          </p>
+        </div>
+    
+        <img
+          src="/media/0/musheye_logo.webp"
+          alt="Musheye Logo"
+          id="intro-logo"
+          class="intro-fade intro-delay-3"
+        />
+    
+        <div id="scroll-hint" class="intro-fade intro-delay-4">↓ Листай вниз — покажу, как всё создавалось</div>
+      </div>
+    
+      <!-- 📦 ПРЕЛОАДЕР -->
+      <div id="preloader">
+        <div id="progress-bar"></div>
+        <span id="progress-text">0%</span>
+      </div>
+    </section>
+    
+    
+    
+
+    
+    <div id="curve-progress">
+      <div id="curve-bar"></div>
+      <div id="snap-markers"></div>
+    </div>
+    
+    
+
+    <div id="snap-panel">
+      <h2 id="panel-title"></h2>
+      <p id="panel-text"></p>
+      <button id="panel-button"></button>
+    </div>
+    
+    
+
+    <div id="outro">
+      <div id="outro-wrapper">
+        <h1 class="intro-fade intro-delay-1">Спасибо, что досмотрел</h1>
+    
+        <p class="intro-fade intro-delay-2">
+          Проект начался с доски.  
+          А закончился сценой, в которую я вложил всё: стиль, процесс, и себя.
+        </p>
+    
+        <p class="intro-fade intro-delay-3">
+          Занимаюсь разработкой кастомных WebGL-сцен для брендов, художников и команд.  
+          Написать мне — <a href="https://t.me/drmiw" target="_blank">@drmiw</a>.
+        </p>
+    
+        <p class="intro-fade intro-delay-4">
+          Больше работ и закулисья — в  
+          <a href="https://t.me/dr_miw" target="_blank">моём Telegram-канале</a>.
+        </p>
+    
+        <p class="intro-fade intro-delay-5">
+          📧 Почта: <a href="mailto:drmiw@drmiw.ru">drmiw@drmiw.ru</a>
+        </p>
+    
+        <p class="intro-fade intro-delay-6">
+          🌐 Портфолио:  
+          <a href="https://doctormiw.github.io/portfolio/" target="_blank">doctormiw.github.io/portfolio</a>
+        </p>
+    
+        <p class="intro-fade intro-delay-7">
+          🎮 3D-портфолио:  
+          <a href="https://doctormiw.github.io/portfolio.app/" target="_blank">doctormiw.github.io/portfolio.app</a>
+        </p>
+      </div>
+    </div>
+    
+    </div>
+    
+    
+
+
+    
+
+<div id="info-panel">
+  <div class="info-header">
+    <h2 id="info-title">Заголовок</h2>
+    <button id="close-info">✕</button>
+  </div>
+  <div class="info-body" id="info-content">
+    <p>Подробная информация будет подставляться из snapPanels.js</p>
+  </div>
+</div>
+
+ <!-- 🎨 UI-переключатель темы -->
+ <div id="theme-switcher">
+  <div id="theme-label">Сменить тему</div>
+  <button id="theme-current" aria-label="Сменить тему"></button>
+  <div id="theme-options"></div>
+</div>
+
+
+  </body>
+</html>
